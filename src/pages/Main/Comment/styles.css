@@ -1,0 +1,76 @@
+.comment_content{
+    display: flex;
+    gap: 1rem;
+    line-height: 1.6;
+}
+
+.profile_photo {
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: 8px;
+}
+
+.comment_box {
+    flex: 1;
+    background: var(--gray-600);
+    border-radius: 9px;
+    padding: 1.125rem;
+}
+
+.comment_decription {
+    display: flex;
+    flex-direction: column;
+    box-sizing: initial;
+    
+}
+
+.comment_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comment_text {
+    margin-top: 1.2rem;
+}
+
+.comment_text p {
+    max-width: 26.813rem;
+    word-wrap: break-word;
+}
+
+.trash_icon{
+ color: var(--gray-500);
+ font-size: 1rem;
+}
+
+.trash_icon:hover{
+    color: var(--red-500);
+   }
+
+
+.footer{
+    margin-top: 1rem;
+    margin-left: 4.375rem;
+    margin-bottom: 1.5rem;
+
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footer > i {
+    margin-right: 0.5rem;
+    font-size: 1.25rem;
+}
+
+.number::before{
+    content: '\2022';
+    padding: 0 0.25rem;
+    color: beige;
+
+}
+
+.footer:hover {
+    color: var(--green-300);
+}
